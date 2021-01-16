@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0627A5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+#buttons-background-color ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 6px;
+  overflow: hidden;
+  background-color: black;
+}
+
+#buttons-background-color ul li {
+    display: inline;
+    float: left;
+}
+
+#buttons-background-color ul li button {
+    border: none;
+    margin: 2px;
+    color: white;
+}
+
+#btn-color-01 {
+    background-color: #01087C;
+}
+
+#btn-color-02 {
+    background-color: #0311FC;
+}
+
+#btn-color-03 {
+    background-color: #4048C9;
+}
+
+nav {
+    padding: 12px;
+    margin-top: 30px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+#logo {
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    margin-left: 24px;
+    display: inline;
+    float: right;
+}
+
+#conteudo {
+    margin-top: 100px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+#conteudo div h1 {
+    font-size: 50px;
+}
+
+#conteudo div p {
+    font-size: 22px;
+}
+
+#buttons-container {
+    margin-top: 40px;
+}
+
+#buttons-container button {
+    border-radius: 50px;
+    background-color: #00FF80;
+    color: white;
+    font: bold;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#img-info img {
+    margin-left: 50px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+#mural-de-mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mural-de-mensagem button {
+    background-color: #0B0B61;
+    border: none;
+    color: white;
+    height: 24px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+#recado {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-text {
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 10px;
+}
+
+.input-text input {
+    margin-left: 5px;
+    width: 410px;
+    border-style: solid;
+    border-color:#0431B4;
+    border-width: 1px;
+}
+
+.button-enviar {
+    display: flex;
+    justify-content:flex-end;
+}
+
+#mensagem {
+    background-color: white;
+    color: black;
+    width: 500px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#mensagem div {
+    margin-bottom: 5px;
+    display: inline;
+}
+
+#mensagem div span {
+    float: left;
+}
+
+#mensagem div button {
+    float: right;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
